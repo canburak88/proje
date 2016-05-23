@@ -1,0 +1,198 @@
+#sayfaUst {
+    background-image: url(../img/sayfaUst.png);
+    background-repeat: repeat-x;
+}
+#sayfaAlt {
+    margin-top: 15px;
+    background-image: url(../img/sayfaAlt.png);
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 140%;
+    color: white;
+    letter-spacing: 1px;
+}
+#ust {
+    height: 122px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#newuser{
+    float:right;
+}
+
+#login{
+    float:right;
+}
+#sayfaUst #ust #newuser a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+}
+#sayfaUst #ust #login a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+}
+#logo {
+    float: left;
+    width: 300px;
+    padding-top: 66px;
+}
+#menu {
+    float: right;
+}
+#gorsel {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+}
+#sayfaUst #ust #menu ul {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 82px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#sayfaUst #ust #menu ul li {
+    float: left;
+}
+#sayfaUst #ust #menu ul li a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-image: url(../img/menu.png);
+    background-repeat: repeat-x;
+    display: block;
+    margin-left: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+#icerik {
+    background-image: url(../img/icerik.png);
+    background-repeat:repeat-y;
+    width: 864px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+#sayfaUst #icerik table {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+#footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 175px;
+    color: white;
+    font-size: 11px;
+}
+#footer_sol {
+    float: left;
+    width: 500px;
+    padding-top: 20px;
+}
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.right{
+    float: right;
+    padding: 7px;
+    background-image: url(../img/menu.png);
+    background-repeat: repeat-x;
+}
+
+.full-width{
+    width: 100%;
+    float: left;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+
+.data-table{
+    width: 100%;
+    margin: 16px 0;
+    border: 1px solid #ccc;
+}
+
+.data-table tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th{
+    padding: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.data-table td{
+    padding: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.data-table td a:link {
+    text-decoration: none;
+    color: #083d8d;
+}
+
+.data-table td a:visited {
+    text-decoration: none;
+    color: #083d8d;
+}
+
+.data-table td a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.data-table td a:active {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.data-table tr:nth-child(odd){
+    background-color: #fff
+}
+.data-table tr:nth-child(even){
+    background-color: #f1f1f1
+}
